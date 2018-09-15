@@ -6,6 +6,10 @@ public class Car extends Vehicle {
         this.convertible = convertible;
     }
 
+    public boolean isConvertible() {
+        return convertible;
+    }
+
     @Override
     public void printVehicle() {
         super.printVehicle();

@@ -9,6 +9,14 @@ public class Truck extends Vehicle{
         this.towCapacity = towCapacity;
     }
 
+    public boolean hasSideStep() {
+        return sideStep;
+    }
+
+    public int getTowCapacity() {
+        return towCapacity;
+    }
+
     @Override
     public void printVehicle() {
         super.printVehicle();
